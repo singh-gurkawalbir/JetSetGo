@@ -1,8 +1,35 @@
-# React + Vite
+# JetSetGo - Simplifying Flight Bookings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JetSetGo is a web application aimed at simplifying flight bookings for users. It provides a user-friendly interface to search for flights, view flight details, and make bookings hassle-free.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for flights based on source, destination, and airline.
+- Sort flights by price.
+- View detailed flight information.
+- Smooth scrolling navigation.
+- Pagination for displaying search results.
+
+## Technologies Used
+
+- React.js
+- Vite
+- Axios
+- Material-UI
+- React Icons
+- AOS (Animate On Scroll)
+- SCSS
+
+## How to Run
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+2 . **Install dependencies, navigate to the project directory, and start the development server::**
+  ```bash
+  cd jetsetgo
+  npm install
+  npm run dev
